@@ -678,6 +678,18 @@ footer .container {
     width: 50%;
   }
 
+  .hero-banner {
+    position: absolute;
+    top: 50%;
+    right: -140px;
+    transform: translateY(-50%);
+    background: url("../images/hero.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 70%;
+    padding-bottom: 50%;
+  }
+
 
 
   /**
@@ -742,6 +754,10 @@ footer .container {
     padding-top: 120px;
     padding-bottom: 150px;
   }
+
+  .hero-banner {
+    top: 55%;
+    }
 
 
   /**
