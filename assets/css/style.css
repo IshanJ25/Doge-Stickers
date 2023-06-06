@@ -11,10 +11,10 @@
   --white: rgb(240, 240, 240);
   --black: rgb(50, 50, 50);
 
-  --bg-1: rgb(141, 112, 73);
-  --bg-2: rgb(184, 148, 102);
-  --bg-3: rgb(194, 174, 135);
-  --bg-4: rgb(255, 237, 203);
+  --bg-1: rgb(184, 148, 102);
+  --bg-2: rgb(141, 112, 73);
+  --bg-3: rgb(202, 176, 123);
+  --bg-4: rgb(255, 233, 193);
 
 
   /**
@@ -121,7 +121,7 @@ body {
 }
 
 .btn-primary {
-  background: var(--bg-2);
+  background: var(--bg-3);
   color: var(--white);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
@@ -136,7 +136,8 @@ body {
 }
 
 .btn-primary:hover {
-  background: var(--bg-3);
+  background: var(--bg-4);
+  color: var(--black);
   transition: var(--transition);
 }
 
