@@ -267,8 +267,21 @@ main {
   text-align: center;
 }
 
+.hero-banner {
+  background: url("../images/hero.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-bottom: 100%;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
 
 
+
+.container.parallax_1 {
+  /* hide this element */
+  display: none;
+}
 
 /*-----------------------------------*\
  * #DOWNLOAD
@@ -523,8 +536,6 @@ footer .container {
 
   }
 
-
-
 }
 
 
@@ -684,11 +695,16 @@ footer .container {
     top: 50%;
     right: -140px;
     transform: translateY(-50%);
-    background: url("../images/hero.png") no-repeat;
-    background-size: contain;
-    background-position: center;
     width: 70%;
     padding-bottom: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+
+  .container.parallax_1 {
+    /* unhide this element */
+    display: block;
   }
 
 
@@ -758,7 +774,7 @@ footer .container {
 
   .hero-banner {
     top: 55%;
-    }
+  }
 
 
   /**
