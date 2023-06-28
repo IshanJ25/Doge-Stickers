@@ -759,7 +759,7 @@ footer .container {
   .hero-banner {
     position: absolute;
     top: 50%;
-    right: -140px;
+    right: -100px;
     transform: translateY(-50%);
     width: 70%;
     padding-bottom: 50%;
