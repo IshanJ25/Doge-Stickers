@@ -278,6 +278,45 @@ main {
 }
 
 
+.hero-404 {
+  vertical-align: middle;
+  padding-bottom: 60px;
+  /* padding: 60px 0px 160px 40px; */
+}
+
+.hero-title-404 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero-banner-404 {
+  background: url("../images/404.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-random-doge-404 {
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+  /* make it at the exact location of the above element */
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translate(-50%, -44%);
+  padding: 0px 42% 0px 42%;
+}
+
+.hero-content-404 {
+  margin-top: 220px;
+}
+
 
 .container.parallax_1 {
   /* hide this element */
@@ -842,9 +881,6 @@ footer .container {
     padding-bottom: 150px;
   }
 
-  .hero-banner {
-    top: 55%;
-  }
 
 
   /**
