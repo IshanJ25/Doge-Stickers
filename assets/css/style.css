@@ -110,6 +110,16 @@ body {
   background: var(--bg-1);
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background: rgb(120, 200, 255);
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(120, 200, 255);
+}
 
 
 
@@ -311,6 +321,11 @@ main {
   left: 50%;
   transform: translate(-50%, -44%);
   padding: 0px 42% 0px 42%;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .hero-content-404 {
@@ -382,6 +397,11 @@ main {
   object-position: center;
   margin: auto;
   filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.548));
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -881,7 +901,7 @@ footer .container {
     padding-bottom: 150px;
   }
 
-  
+
   .hero-banner {
     top: 55%;
   }
