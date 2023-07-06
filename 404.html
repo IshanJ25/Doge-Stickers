@@ -167,9 +167,9 @@
     var numbers = Array.from(Array(18).keys()).map(x => ++x);
     prefix = "assets/images/404/";
     suffix = ".png";
-    random = numbers[Math.floor(Math.random() * numbers.length)];
-    filename = prefix + random + suffix;
-    document.getElementById("hero-random-doge-404").src = filename;
+    rand_int = Math.floor(Math.random() * numbers.length + 1);
+    if (rand_int == numbers.length + 1) rand_int = "0" + numbers.length;
+    document.getElementById("hero-random-doge-404").src = prefix + numbers[rand_int] + suffix;
   </script>
 
 
