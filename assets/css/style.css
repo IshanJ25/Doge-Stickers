@@ -23,7 +23,11 @@
    * typography
    */
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
   --ff-poppins: "Poppins", sans-serif;
+
+  --ff-inter: "Inter", sans-serif;
 
   --fs-1: 36px;
   --fs-2: 30px;
@@ -430,17 +434,14 @@ main {
 
 
 .privacy-text {
+  font-family: var(--ff-inter);
   color: var(--white);
   text-align: justify;
   text-justify: inter-word
 }
 
-.indent-1 {
-  padding-left: 24px;
-}
-
-.indent-2 {
-  padding-left: 48px;
+.indent {
+  padding-left: 32px;
 }
 
 
