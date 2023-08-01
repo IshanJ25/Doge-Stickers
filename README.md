@@ -15,4 +15,26 @@ Official, fully responsive landing page for the Doge Stickers app, built using H
 | 7 | a.4.0 | 01 Jul 2023 | Production | Minor |
 | 8 | a.4.1 | 01 Jul 2023 | Production | Patch |
 | 9 | a.5.0 | 03 Jul 2023 | Production | Minor |
-| 10 | beta.0.0 | TBD | Production | Major |
+| 10 | beta.0.0 | TBD | Production | [Major](#beta00) |
+
+## Changelog
+### `beta.0.0`
+**Enhanced Experience:**
+- Enhanced stability for glitch-free experience.
+- Improved support for large screens and tabs.
+- Faster loading times for smooth usage.
+- Reduced ads and app size!
+
+**Stylish & Reliable:**
+- Full redesign with a fresh new look and a new font.
+- Vibrant gradient themes and refreshed layouts for a modern touch.
+- Better compatibility with more devices.
+- Removed redundant resources for efficiency.
+
+**Resource Hub:**
+- One page to manage everything with ease.
+
+**Privacy & Assistance:**
+- New privacy features for added security.
+- New help & support features.
+
