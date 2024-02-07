@@ -6,7 +6,7 @@ Official, fully responsive landing page for the Doge Stickers app, built using H
 ## Release Table
 | Version Code | Version Name | Date | Track | Notes |
 | ------------ | ------------ | ---- | ----- | ----- |
-| 13 | beta.1.1 | TBD | Production | [Patch](CHANGELOG.md#beta11) |
+| 13 | beta.1.1 | 07 Feb 2024 | Production | [Patch](CHANGELOG.md#beta11) |
 | 12 | beta.1.0 | 28 Jan 2024 | Production | [Minor](CHANGELOG.md#beta10) |
 | 11 | beta.0.1 | 02 Aug 2023 | Production | [Patch](CHANGELOG.md#beta01) |
 | 10 | beta.0.0 | 01 Aug 2023 | Production | [Major](CHANGELOG.md#beta00) |
