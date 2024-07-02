@@ -486,10 +486,8 @@ footer .container {
 .social-link-insta,
 .social-link-linkedin {
   color: var(--white);
-  /* font-size: 32px; */
-  width: 48px;
-  height: 48px;
-  padding: 12px;
+  font-size: 32px;
+  padding: 8px;
   border-radius: 100%;
   transition: var(--transition);
 }
@@ -501,19 +499,19 @@ footer .container {
 }
 
 .social-link-twitter:hover {
-  color: #000000;
+  color: #00ACEE;
   background-color: var(--white);
   transition: var(--transition);
 }
 
 .social-link-linkedin:hover {
-  color: #0077B5;
+  color: #0A78B5;
   background-color: var(--white);
   transition: var(--transition);
 }
 
 .social-link-insta:hover {
-  color: #DE3D6D;
+  color: #FF1262;
   background-color: var(--white);
   transition: var(--transition);
 }
