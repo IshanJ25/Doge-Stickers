@@ -1,5 +1,11 @@
 ## Changelog
 
+### `beta.1.2`
+**App Experience:**
+- Improved stability 🫧
+- Fixed some bugs 🪲🪲
+- Updated dependencies ⬆️
+
 ### `beta.1.1`
 **App Experience:**
 - Improved stability 🫧
